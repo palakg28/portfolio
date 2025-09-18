@@ -55,7 +55,7 @@ export default function Hero() {
             <div className="relative">
               <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-white/10 via-white/20 to-white/10 blur-lg" />
               <Image
-                src="/palak.png"               // make sure this exists in /public
+                src={palakImg}              // make sure this exists in /public
                 alt="Palak Gupta"
                 width={420}
                 height={520}

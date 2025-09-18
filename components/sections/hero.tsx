@@ -1,5 +1,6 @@
 // components/sections/hero.tsx
 import Image from "next/image";
+import palakImg from "@/public/palak.png"; 
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { WavyBackground } from "@/components/ui/wavy-background";

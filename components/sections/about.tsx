@@ -1,11 +1,10 @@
 // components/sections/about.tsx
 "use client";
-
 import { TextGenerateEffect } from "../ui/text-generate-effect";
 
 const intro =
-  `I’m Palak Gupta — a rising senior at UC San Diego (Mathematics–Computer Science). ` +
-  `I work at the intersection of data, AI, and business strategy, turning complex datasets into clear decisions and intelligent systems that deliver measurable impact.`;
+  `I am a Mathematics–Computer Science student at UC San Diego working at the intersection of data engineering, agentic AI, and product strategy. ` +
+  `I specialize in architecting the technical infrastructure that transforms complex data into high-utility business tools.`;
 
 export default function About() {
   return (
@@ -23,26 +22,41 @@ export default function About() {
         </div>
       </div>
 
-      {/* What I Do — concise, ATS-friendly */}
-      <div className="w-full max-w-3xl mt-10">
-        <h3 className="text-white text-2xl font-semibold mb-4">What I Do</h3>
-        <ol className="list-decimal pl-6 space-y-3 text-white/90 leading-relaxed">
-          <li>Build scalable <span className="font-semibold">ETL/data pipelines</span> with strong quality checks.</li>
-          <li>Develop <span className="font-semibold">dashboards & KPI frameworks</span> for exec decision-making.</li>
-          <li>Apply <span className="font-semibold">ML & predictive analytics</span> for forecasting and anomaly detection.</li>
-          <li>Design <span className="font-semibold">AI automations</span> that reduce manual work improving response-time and reliability targets.</li>
-          <li>Translate analysis into <span className="font-semibold">product & business strategy</span>.</li>
-        </ol>
-      </div>
-
-      {/* Impact snippet */}
+      {/* Second paragraph */}
       <p className="mt-6 max-w-3xl text-white/80 text-center">
-        Recent impact: 50%+ reduction in manual work, systems scaled for 100K+ records,
-        multi-million-dollar budgets analyzed, and engagement boosted via AI-powered personalization.
+        Whether it is building <span className="font-semibold">XGBoost demand engines</span> to stabilize marketplace logistics or engineering{" "}
+        <span className="font-semibold">LLM-powered civic tools</span>, my focus is on bridging the gap between deep analytics and measurable product growth.
       </p>
 
-      {/* Gentle pointer to the separate skills section */}
-      <a
+      {/* Technical Focus */}
+      <div className="w-full max-w-3xl mt-10">
+        <h3 className="text-white text-2xl font-semibold mb-4">Technical Focus</h3>
+        <ul className="list-disc pl-6 space-y-3 text-white/90 leading-relaxed">
+          <li><span className="font-semibold">Architecting Pipelines:</span> Engineering scalable ETL/ELT workflows and Medallion-style data warehouses.</li>
+          <li><span className="font-semibold">Predictive Modeling:</span> Deploying ML architectures for forecasting, anomaly detection, and AOV optimization.</li>
+          <li><span className="font-semibold">Intelligent Automation:</span> Designing agentic AI systems that resolve operational friction and buy back human time.</li>
+          <li><span className="font-semibold">Product Strategy:</span> Translating technical logic into PRDs, KPI frameworks, and executive-level insights.</li>
+        </ul>
+      </div>
+
+      {/* Professional Impact */}
+      <div className="w-full max-w-3xl mt-10">
+        <h3 className="text-white text-2xl font-semibold mb-4">Professional Impact</h3>
+        <ul className="list-disc pl-6 space-y-3 text-white/90 leading-relaxed">
+          <li><span className="font-semibold">50%+ reduction</span> in manual operational workflows through targeted AI automation.</li>
+          <li><span className="font-semibold">20.1% decrease</span> in service bottlenecks via predictive demand forecasting.</li>
+          <li><span className="font-semibold">100K+ records</span> managed through high-concurrency, scalable data architectures.</li>
+          <li><span className="font-semibold">Multi-million-dollar</span> budget optimizations driven by automated financial reporting and BI.</li>
+        </ul>
+      </div>
+
+      {/* Closing line */}
+      <p className="mt-8 max-w-3xl text-white/80 text-center italic">
+        I thrive in roles where high-logic engineering meets high-utility product design.
+      </p>
+
+      {/* Pointer to skills */}
+      
         href="#skills"
         className="mt-8 inline-flex items-center rounded-full border border-white/15 bg-white/5 px-4 py-2 text-sm text-white/90 hover:bg-white/10 transition"
       >

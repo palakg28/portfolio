@@ -17,13 +17,11 @@ export default function Hero() {
             </h1>
 
             <p className="mt-3 text-base md:text-lg text-white/90">
-              Math–CS @ UC San Diego | Data · AI · Analytics Portfolio
+              AI Automation & Business Intelligence | Applied ML & Data Analytics | Scaling impact through AI-driven insights and Product Strategy | Math-CS @ UC San Diego
             </p>
 
             <p className="mt-4 text-sm md:text-base text-white/80 max-w-xl">
-              I design <span className="font-semibold">pipelines, predictive models,
-              dashboards, and agentic AI systems</span> that turn complex data into
-              clear business decisions — bridging analytics and strategy. ✨
+              I build the AI and data infrastructure that transforms technical logic into product growth—designing automated MLOps pipelines and predictive architectures that bridge the gap between deep analytics and measurable business strategy. ✨
             </p>
 
             {/* CTAs */}

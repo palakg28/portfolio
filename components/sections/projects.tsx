@@ -18,6 +18,42 @@ type Project = {
 
 const projects: Project[] = [
   {
+    title: "NexBundle: Omnichannel Marketplace Bundling Platform",
+    tagline: "React 18 • Intelligent Bundling • Multi-persona UX • +15% AOV Lift",
+    description:
+      "A full-stack marketplace prototype featuring real-time inventory validation and 'One-Click Add' bundle patterns. Models the intersection of Brand Partner, Retailer, and Shopper needs to drive measurable AOV growth while preventing out-of-stock friction.",
+    image: "/projects/nexbundle-mockup.png",
+    repo: "https://github.com/palakg28/nexbundle",
+    tags: ["React", "API Design", "Systems Thinking", "E-commerce", "UX Strategy"],
+  },
+  {
+    title: "Marketplace Dynamics: Demand Forecasting Engine",
+    tagline: "XGBoost & LSTM Ensemble • Airflow Orchestration • SQL KPI Framework",
+    description:
+      "End-to-end ML product reducing service bottlenecks by 20%. Features an automated retraining pipeline and an Ops dashboard that translates model confidence intervals into proactive staffing alerts and shift recommendations.",
+    image: "/projects/demand-forecast-architecture.png",
+    repo: "https://github.com/palakg28/demand-forecasting-product",
+    tags: ["Machine Learning", "Product Management", "SQL", "MLOps", "Supply Chain"],
+  },
+  {
+    title: "AI AutoScheduler (n8n + Google APIs)",
+    tagline: "Agentic automation • Proximity-aware routing • Zero double-booking",
+    description:
+      "n8n workflow that converts sheet bookings into conflict-free Google Calendar events. Capacity/rest rules, Maps enrichment, and write-back of event IDs—cutting manual scheduling ~50% and boosting efficiency ~35%.",
+    image: "/projects/n8n.png",
+    repo: "https://github.com/palakg28/AutoScheduler-AI-Powered-Calendar-Automation",
+    tags: ["n8n", "Automation", "Google APIs", "Scheduling", "Ops"],
+  }, 
+  {
+    title: "TenantSafe SD: Civic AI for Rental Transparency",
+    tagline: "Node.js • Claude API (LLM) • Open Data • 100K+ Municipal Records",
+    description:
+      "A civic technology tool that democratizes San Diego's public housing data. It processes 311 complaints and code violations through LLMs to generate instant risk scores, plain-English summaries, and targeted pre-lease inspection checklists for renters.",
+    image: "/projects/tenantsafe-ui.png",
+    repo: "https://github.com/palakg28/tenantsafe-sd",
+    tags: ["Civic Tech", "LLM Integration", "Data Engineering", "Node.js", "Social Impact"],
+  },
+  {
     title: "SQL Data Warehouse (Bronze → Gold) for Business KPIs",
     tagline: "Dockerized SQL Server • Medallion architecture • KPI views",
     description:
@@ -35,25 +71,7 @@ const projects: Project[] = [
     repo: "https://github.com/palakg28/Tableau-HR-Analytics",
     live: "https://public.tableau.com/app/profile/palak.gupta7383/viz/HROverviewDashboard_17562573699270/HRSummary",
     tags: ["Tableau", "Storytelling", "HR Analytics", "Dashboards"],
-  },
-  {
-    title: "Coffee Sales Insights Dashboard (Excel)",
-    tagline: "Executive KPIs • Slicers & timelines • Customer/product views",
-    description:
-      "Interactive Excel BI with XLOOKUP/INDEX-MATCH, PivotTables/Charts, and dynamic filters. Tracks sales trends, top products, geo mix, and key customers to guide pricing & category decisions.",
-    image: "/projects/excel.png",
-    repo: "https://github.com/palakg28/coffee-sales-insights-dashboard",
-    tags: ["Excel", "PivotTables", "Data Cleaning", "BI"],
-  },
-  {
-    title: "AI AutoScheduler (n8n + Google APIs)",
-    tagline: "Agentic automation • Proximity-aware routing • Zero double-booking",
-    description:
-      "n8n workflow that converts sheet bookings into conflict-free Google Calendar events. Capacity/rest rules, Maps enrichment, and write-back of event IDs—cutting manual scheduling ~50% and boosting efficiency ~35%.",
-    image: "/projects/n8n.png",
-    repo: "https://github.com/palakg28/AutoScheduler-AI-Powered-Calendar-Automation",
-    tags: ["n8n", "Automation", "Google APIs", "Scheduling", "Ops"],
-  },
+  }
 ];
 
 export default function Projects() {

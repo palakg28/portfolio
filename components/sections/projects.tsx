@@ -34,15 +34,6 @@ const projects: Project[] = [
     image: "/projects/demand-forecast-architecture.png",
     repo: "https://github.com/palakg28/demand-forecasting-product",
     tags: ["Machine Learning", "Product Management", "SQL", "MLOps", "Supply Chain"],
-  },
-  {
-    title: "AI AutoScheduler (n8n + Google APIs)",
-    tagline: "Agentic automation • Proximity-aware routing • Zero double-booking",
-    description:
-      "n8n workflow that converts sheet bookings into conflict-free Google Calendar events. Capacity/rest rules, Maps enrichment, and write-back of event IDs—cutting manual scheduling ~50% and boosting efficiency ~35%.",
-    image: "/projects/n8n.png",
-    repo: "https://github.com/palakg28/AutoScheduler-AI-Powered-Calendar-Automation",
-    tags: ["n8n", "Automation", "Google APIs", "Scheduling", "Ops"],
   }, 
   {
     title: "TenantSafe SD: Civic AI for Rental Transparency",
@@ -52,6 +43,15 @@ const projects: Project[] = [
     image: "/projects/tenantsafe-ui.png",
     repo: "https://github.com/palakg28/tenantsafe-sd",
     tags: ["Civic Tech", "LLM Integration", "Data Engineering", "Node.js", "Social Impact"],
+  },
+  {
+    title: "AI AutoScheduler (n8n + Google APIs)",
+    tagline: "Agentic automation • Proximity-aware routing • Zero double-booking",
+    description:
+      "n8n workflow that converts sheet bookings into conflict-free Google Calendar events. Capacity/rest rules, Maps enrichment, and write-back of event IDs—cutting manual scheduling ~50% and boosting efficiency ~35%.",
+    image: "/projects/n8n.png",
+    repo: "https://github.com/palakg28/AutoScheduler-AI-Powered-Calendar-Automation",
+    tags: ["n8n", "Automation", "Google APIs", "Scheduling", "Ops"],
   },
   {
     title: "SQL Data Warehouse (Bronze → Gold) for Business KPIs",

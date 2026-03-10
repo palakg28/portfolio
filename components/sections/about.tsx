@@ -3,7 +3,7 @@
 import { TextGenerateEffect } from "../ui/text-generate-effect";
 
 const intro =
-  `I am a Mathematics–Computer Science student at UC San Diego working at the intersection of data engineering, agentic AI, and product strategy. ` +
+  `Working at the intersection of data engineering, agentic AI, and product strategy. ` +
   `I specialize in architecting the technical infrastructure that transforms complex data into high-utility business tools.`;
 
 export default function About() {

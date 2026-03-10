@@ -1,23 +1,18 @@
 "use client";
 import { TextGenerateEffect } from "../ui/text-generate-effect";
 
-const intro = `Working at the intersection of data engineering, agentic AI, and product strategy. I specialize in architecting the technical infrastructure that transforms complex data into high-utility business tools.`;
+const intro = "Working at the intersection of data engineering, agentic AI, and product strategy. I specialize in architecting the technical infrastructure that transforms complex data into high-utility business tools.";
 
 export default function About() {
   return (
-    <section
-      id="about"
-      className="bg-black flex flex-col items-center justify-center px-6 md:px-16 lg:px-32 py-20"
-    >
+    <section id="about" className="bg-black flex flex-col items-center justify-center px-6 md:px-16 lg:px-32 py-20">
       <h2 className="text-white text-4xl font-bold mb-10 text-center">About Me</h2>
-
       <div className="w-full bg-black bg-grid-small-white/[0.2] relative rounded-md p-6 md:p-10">
         <div className="absolute inset-0 pointer-events-none bg-black [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
         <div className="relative">
           <TextGenerateEffect words={intro} />
         </div>
       </div>
-
       <p className="mt-6 max-w-3xl text-white/80 text-center">
         Whether it is building{" "}
         <span className="font-semibold">XGBoost demand engines</span> to stabilize marketplace logistics or engineering{" "}

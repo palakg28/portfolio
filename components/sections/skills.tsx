@@ -12,46 +12,57 @@ const groups: SkillGroup[] = [
     skills: [
       "Python (Pandas, NumPy, scikit-learn)",
       "SQL (Postgres, MySQL, SQL Server)",
-      "Java",
-      "R (analysis/modeling)",
-      "C/C++ (foundations)",
+      "Java & JavaScript",
+      "R (Analysis/Modeling)",
+      "C/C++ (Foundations)",
       "Git & GitHub",
     ],
   },
   {
     label: "Data Engineering & Systems",
     skills: [
-      "ETL / Data Pipelines",
-      "Data Warehousing (SQL Server, Snowflake, BigQuery)",
-      "Docker",
-      "Cloud (AWS, GCP, Azure)",
-      "APIs (REST, JSON)",
+      "ETL/ELT Pipelines (dbt, Airflow)",
+      "Data Warehousing (Snowflake, SQL Server)",
+      "Docker & Containerization",
+      "Cloud Infrastructure (AWS, GCP)",
+      "API Design (REST, JSON)",
+      "Medallion Architecture",
     ],
   },
   {
     label: "Analytics & Visualization",
     skills: [
-      "Tableau",
-      "Power BI",
+      "Tableau & Power BI (DAX)",
       "Looker Studio",
-      "Excel (VBA, PivotTables, Macros)",
-      "Statistical Modeling",
-      "A/B Testing",
+      "Financial Modeling & FP&A",
+      "Statistical Analysis",
+      "A/B Testing & Experimentation",
+      "KPI Framework Design",
     ],
   },
   {
-    label: "AI & Advanced",
+    label: "AI & Automation",
     skills: [
-      "Machine Learning (supervised/unsupervised)",
-      "Predictive Modeling",
-      "Natural Language Processing (NLP)",
-      "Prompt Engineering",
-      "MLOps (concepts)",
+      "Machine Learning (XGBoost, LSTM)",
+      "Predictive Demand Forecasting",
+      "NLP & LLM Integration (Claude API)",
+      "Agentic AI & Prompt Engineering",
+      "MLOps & Model Deployment",
       "Automation (n8n, Zapier)",
     ],
   },
+  {
+    label: "Product & Strategy",
+    skills: [
+      "Technical Product Management",
+      "Agile/Scrum (Jira, Confluence)",
+      "PRD Writing & Roadmapping",
+      "Marketplace Logistics",
+      "GTM Strategy",
+      "Stakeholder Management",
+    ],
+  },
 ];
-
 export default function Skills() {
   return (
     <section id="skills" className="bg-black px-6 md:px-16 lg:px-32 py-20">

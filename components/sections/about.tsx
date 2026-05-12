@@ -17,13 +17,11 @@ export default function About() {
           <TextGenerateEffect words={intro} />
         </div>
       </div>
-
       <p className="mt-6 max-w-3xl text-white/80 text-center">
         Whether it&apos;s engineering{" "}
         <span className="font-semibold">multi-agent LLM workflows</span> that cut operational time in half, or shipping{" "}
         <span className="font-semibold">n8n and Claude-powered automations</span> that connect AI to the systems business teams already live in, my focus is on AI that real people actually use—not pilots that gather dust.
       </p>
-
       <div className="w-full max-w-3xl mt-10">
         <h3 className="text-white text-2xl font-semibold mb-4">Technical Focus</h3>
         <ul className="list-disc pl-6 space-y-3 text-white/90 leading-relaxed">
@@ -41,7 +39,6 @@ export default function About() {
           </li>
         </ul>
       </div>
-
       <div className="w-full max-w-3xl mt-10">
         <h3 className="text-white text-2xl font-semibold mb-4">Professional Impact</h3>
         <ul className="list-disc pl-6 space-y-3 text-white/90 leading-relaxed">
@@ -59,11 +56,9 @@ export default function About() {
           </li>
         </ul>
       </div>
-
       <p className="mt-8 max-w-3xl text-white/80 text-center italic">
         I thrive in roles where the build and the adoption are owned by the same person—because the best AI tools are the ones people actually use.
       </p>
-
       
         href="#skills"
         className="mt-8 inline-flex items-center rounded-full border border-white/15 bg-white/5 px-4 py-2 text-sm text-white/90 hover:bg-white/10 transition"

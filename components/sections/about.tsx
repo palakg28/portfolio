@@ -60,6 +60,7 @@ export default function About() {
         I thrive in roles where the build and the adoption are owned by the same person—because the best AI tools are the ones people actually use.
       </p>
       
+        <a
         href="#skills"
         className="mt-8 inline-flex items-center rounded-full border border-white/15 bg-white/5 px-4 py-2 text-sm text-white/90 hover:bg-white/10 transition"
       >

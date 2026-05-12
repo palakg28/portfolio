@@ -1,6 +1,6 @@
 // components/sections/hero.tsx
 import Image from "next/image";
-import palakImg from "@/public/palak.png"; 
+import palakImg from "@/public/palak.png";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { WavyBackground } from "@/components/ui/wavy-background";
@@ -15,27 +15,23 @@ export default function Hero() {
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white">
               Palak Gupta
             </h1>
-
             <p className="mt-3 text-base md:text-lg text-white/90">
-              AI Automation & Business Intelligence | Applied ML & Data Analytics | Scaling impact through AI-driven insights and Product Strategy | Math-CS @ UC San Diego
+              AI Builder &amp; Enablement Engineer | Production AI Agents, LLM Automation, Adoption at Scale | Math-CS @ UC San Diego
             </p>
-
             <p className="mt-4 text-sm md:text-base text-white/80 max-w-xl">
-              I build the AI and data infrastructure that transforms technical logic into product growth—designing automated MLOps pipelines and predictive architectures that bridge the gap between deep analytics and measurable business strategy. ✨
+              I build production AI agents and automations that turn ambiguous business workflows into reliable, adoptable systems. Designing LLM-powered tools in Python, n8n, and Claude or OpenAI APIs, then partnering with non-technical teams to actually get them used. Currently shipping multi-agent systems at ClearDesk. Graduating June 2026, open to AI builder and enablement roles.
             </p>
-
             {/* CTAs */}
             <div className="mt-8 flex flex-wrap gap-4">
               <Button asChild className="min-w-36 bg-indigo-600 hover:bg-indigo-700 text-white">
-                <Link href="#about" aria-label="Go to About section">About Me</Link>
+                <Link href="#projects" aria-label="See my projects">View Projects</Link>
               </Button>
               <Button asChild className="min-w-36 bg-indigo-600 hover:bg-indigo-700 text-white">
                 <Link href="#experience" aria-label="See experience">Experience</Link>
               </Button>
               <Button asChild className="min-w-36 bg-indigo-600 hover:bg-indigo-700 text-white">
-                <Link href="#projects" aria-label="See my projects">View Projects</Link>
+                <Link href="#about" aria-label="Go to About section">About Me</Link>
               </Button>
-            
               <Button asChild className="min-w-36 bg-indigo-600 hover:bg-indigo-700 text-white">
                 <Link href="#skills" aria-label="See skills">Skills</Link>
               </Button>
@@ -53,7 +49,7 @@ export default function Hero() {
             <div className="relative">
               <div className="absolute -inset-1 rounded-2xl bg-gradient-to-r from-white/10 via-white/20 to-white/10 blur-lg" />
               <Image
-                src={palakImg}              // make sure this exists in /public
+                src={palakImg}
                 alt="Palak Gupta"
                 width={420}
                 height={520}

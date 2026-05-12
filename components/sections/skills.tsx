@@ -1,4 +1,5 @@
 // components/sections/skills.tsx
+
 "use client";
 
 type SkillGroup = {
@@ -8,73 +9,106 @@ type SkillGroup = {
 
 const groups: SkillGroup[] = [
   {
-    label: "Data & Programming",
+    label: "AI Agents & LLM Systems",
     skills: [
-      "Python (Pandas, NumPy, scikit-learn)",
-      "SQL (Postgres, MySQL, SQL Server)",
-      "Java & JavaScript",
-      "R (Analysis/Modeling)",
-      "C/C++ (Foundations)",
-      "Git & GitHub",
+      "Multi-Agent Systems",
+      "Claude / OpenAI / Gemini APIs",
+      "LangChain & CrewAI",
+      "Tool Calling & Function Calling",
+      "Prompt Engineering",
+      "Prompt Injection Defense",
+      "LLM Evaluation & Guardrails",
+      "RAG & Vector Search",
     ],
   },
   {
-    label: "Data Engineering & Systems",
+    label: "AI Automation & Workflow Engineering",
     skills: [
-      "ETL/ELT Pipelines (dbt, Airflow)",
-      "Data Warehousing (Snowflake, SQL Server)",
+      "n8n Production Workflows",
+      "Zapier & Make Automations",
+      "HubSpot CRM Integrations",
+      "Google Workspace APIs",
+      "Zoom Transcript Automation",
+      "Webhook-Based Pipelines",
+      "Human-in-the-Loop Review",
+      "Workflow Logging & Retry Logic",
+    ],
+  },
+  {
+    label: "Backend, APIs & Production Systems",
+    skills: [
+      "Python",
+      "FastAPI",
+      "REST APIs",
+      "SQLAlchemy",
+      "Postgres / MySQL / SQL Server",
       "Docker & Containerization",
-      "Cloud Infrastructure (AWS, GCP)",
-      "API Design (REST, JSON)",
+      "JSON Schema Design",
+      "Authentication & OAuth",
+    ],
+  },
+  {
+    label: "Data, Retrieval & AI Infrastructure",
+    skills: [
+      "ETL / ELT Pipelines",
+      "Data Warehousing",
       "Medallion Architecture",
+      "dbt & Airflow",
+      "Vector Databases",
+      "Data Validation",
+      "Knowledge Base Design",
+      "AI-Ready Data Pipelines",
     ],
   },
   {
-    label: "Analytics & Visualization",
+    label: "Analytics, BI & Decision Systems",
     skills: [
-      "Tableau & Power BI (DAX)",
+      "Tableau & Power BI",
       "Looker Studio",
-      "Financial Modeling & FP&A",
-      "Statistical Analysis",
-      "A/B Testing & Experimentation",
       "KPI Framework Design",
+      "Operational Dashboards",
+      "A/B Testing",
+      "Statistical Analysis",
+      "Predictive Forecasting",
+      "XGBoost & LSTM Models",
     ],
   },
   {
-    label: "AI & Automation",
+    label: "AI Product, Adoption & Enablement",
     skills: [
-      "Machine Learning (XGBoost, LSTM)",
-      "Predictive Demand Forecasting",
-      "NLP & LLM Integration (Claude API)",
-      "Agentic AI & Prompt Engineering",
-      "MLOps & Model Deployment",
-      "Automation (n8n, Zapier)",
-    ],
-  },
-  {
-    label: "Product & Strategy",
-    skills: [
-      "Technical Product Management",
-      "Agile/Scrum (Jira, Confluence)",
-      "PRD Writing & Roadmapping",
-      "Marketplace Logistics",
-      "GTM Strategy",
+      "Technical Discovery",
+      "Solution Design",
+      "AI Adoption Playbooks",
+      "Prompt Libraries",
+      "User Training & Enablement",
+      "PRD Writing",
       "Stakeholder Management",
+      "GTM & RevOps Alignment",
     ],
   },
 ];
+
 export default function Skills() {
   return (
     <section id="skills" className="bg-black px-6 md:px-16 lg:px-32 py-20">
-      <h2 className="text-white text-4xl font-bold mb-8 text-center">Skills</h2>
+      <h2 className="text-white text-4xl font-bold mb-4 text-center">
+        Skills
+      </h2>
+
+      <p className="mx-auto max-w-3xl text-center text-white/70 mb-10 leading-relaxed">
+        A practical AI skill set focused on building, deploying, and driving
+        adoption of LLM-powered systems across business workflows, data
+        pipelines, and customer-facing operations.
+      </p>
 
       <div className="mx-auto max-w-5xl grid gap-8 md:grid-cols-2">
         {groups.map((g) => (
           <div
             key={g.label}
-            className="rounded-2xl border border-white/10 bg-black/40 p-6"
+            className="rounded-2xl border border-white/10 bg-black/40 p-6 transition-transform duration-200 hover:-translate-y-1 hover:bg-white/[0.03]"
           >
-            <p className="text-white/70 text-sm mb-3">{g.label}</p>
+            <p className="text-white text-lg font-semibold mb-4">{g.label}</p>
+
             <div className="flex flex-wrap gap-2">
               {g.skills.map((s) => (
                 <span

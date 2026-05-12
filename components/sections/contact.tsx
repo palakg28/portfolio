@@ -28,12 +28,7 @@ export default function Contact() {
       <h1 className="md:text-6xl text-3xl font-bold text-center text-white relative z-20">
         Let&apos;s Build Something
       </h1>
-      <p className="mt-4 text-white/80 text-center max-w-xl relative z-20 text-lg">
-        Whether you&apos;re shipping AI internally, hiring for an AI builder or enablement role, or want to compare notes on what&apos;s working in production, drop me a note. I&apos;ll get back to you within a day.
-      </p>
-      <p className="mt-3 text-white/60 text-center text-sm relative z-20">
-        Based in San Diego, CA. Open to roles in San Diego and remote across the US.
-      </p>
+  
 
       {/* Buttons */}
       <div className="mt-10 flex flex-wrap gap-4 justify-center relative z-20">

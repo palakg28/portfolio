@@ -16,7 +16,7 @@ export default function Hero() {
               Palak Gupta
             </h1>
             <p className="mt-3 text-base md:text-lg text-white/90">
-              AI Builder &amp; Enablement Engineer | Production AI Agents, LLM Automation, Adoption at Scale | Math-CS @ UC San Diego
+              AI Engineer | Production AI Agents, LLM Automation, Adoption at Scale | Math-CS @ UC San Diego
             </p>
             <p className="mt-4 text-sm md:text-base text-white/80 max-w-xl">
               I build production AI agents and automations that turn ambiguous business workflows into reliable, adoptable systems. Designing LLM-powered tools in Python, n8n, and Claude or OpenAI APIs, then partnering with non-technical teams to actually get them used. Currently shipping multi-agent systems at ClearDesk. Graduating June 2026, open to AI builder and enablement roles.
